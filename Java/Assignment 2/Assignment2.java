@@ -3,59 +3,79 @@ import java.util.Random;
 public class Assignment1 {
 	public static void main(String[] args) {
 		// Question 1:
-		String[] ho ={"Cao", "Nguyen", "Tran", "Pham", "Do", "Phan", "Dinh"};
-		String[] tenDem ={"Thu","Thi","Hong","Van","Hoang","Van","Tien"};
-		String[] ten = {"Thao		","Trang		","Nhung		","Nguyet		","Tien		","Thanh		","Nhat		"};
+		String[] firstName ={"Cao", "Nguyen", "Tran", "Pham", "Do", "Phan", "Dinh"};
+		String[] middleName ={"Thu","Thi","Hong","Van","Hoang","Van","Tien"};
+		String[] name = {"Thao		","Trang		","Nhung		","Nguyet		","Tien		","Thanh		","Nhat		"};
 		
-		String[] tenDayDu = new String[10];
+		String[] fullName = new String[10];
 		
 		Random random = new Random();
 	
 		for(int i=0; i<10; i++){
-			int numberHo = random.nextInt(7);
-			int numberTenDem = random.nextInt(7);
-			int numberTen = random.nextInt(7);
-			tenDayDu[i] = ho[numberHo]+" " + tenDem[numberTenDem] +" "+ ten[numberTen];
+			int numberFirstname = random.nextInt(7);
+			int numberMiddleName = random.nextInt(7);
+			int numberName = random.nextInt(7);
+			fullName[i] = firstName[numberFirstname]+" " + middleName[numberMiddleName] +" "+ name[numberName];
 		}
-		
-		// create ID		
-//		String stringID = "1111111";
-//				
-//		
-//		String[] ID = new String[10];
-//		for(int i=0; i<10; i++){
-//			ID[i] = "SV" + stringID;
-//			int soID = Integer.parseInt(stringID);
-//			soID ++;
-//			stringID = Integer.toString(soID);
-//		}
-//		for(int i=0; i<10; i++){
-//			System.out.println(ID[i]);
-//		}
-		
+		 
 		// Question 2:
-		int stringID = 1111111;
+		int numberID = 1111111;
 		
 		String[] ID = new String[10];
 		for(int i=0; i<10; i++){
-			ID[i] = "SV" + stringID +"	";
-			stringID ++;
+			ID[i] = "SV" + numberID +"	";
+			numberID ++;
 		}
 		//Question 3:
 		String[] birthDate = new String[10];
 		
 		for(int i=0; i<10; i++){
-			int birthDay = 2 + random.nextInt(29);
-			int birthMonth = 3 + random.nextInt(9);
+			int birthMonth = 2 + random.nextInt(11);
+			int birthDay = 0;
+			switch (birthMonth){
+			case 3:
+				birthDay = 1+ random.nextInt(31);
+				break;
+			case 5:
+				birthDay = 1+ random.nextInt(31);
+				break;
+			case 7:
+				birthDay = 1+ random.nextInt(31);
+				break;
+			case 8:
+				birthDay = 1+ random.nextInt(31);
+				break;
+			case 10:
+				birthDay = 1+ random.nextInt(31);
+				break;
+			case 12:
+				birthDay = 1+ random.nextInt(31);
+				break;
+			case 2:
+				birthDay = 1+ random.nextInt(28);
+				break;
+			case 4:
+				birthDay = 1+ random.nextInt(30);
+				break;
+			case 6:
+				birthDay = 1+ random.nextInt(30);
+				break;
+			case 9:
+				birthDay = 1+ random.nextInt(30);
+				break;
+			case 11:
+				birthDay = 1+ random.nextInt(30);
+				break;	
+			}
 			birthDate[i] = birthDay +"/" + birthMonth+"/" + "1991";
 		}
 		
 		// Question 4:
 		System.out.println("________________________________________________");
-		System.out.println("Full name		ID		Date");
+		System.out.println("Full name		  ID		Date");
 		System.out.println("_________________________________________________");
 		for(int i=0; i<10; i++){
-			System.out.println(tenDayDu[i] + ID[i] + birthDate[i] );
+			System.out.println(fullName[i] + ID[i] + birthDate[i] );
 		}
 		System.out.println("_________________________________________________");
 		
