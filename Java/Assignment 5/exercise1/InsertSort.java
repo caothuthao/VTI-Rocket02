@@ -22,18 +22,4 @@ public class InsertSort extends SequenceNumber implements Sort {
 			arr[y] = x;
 		}
 	}
-	
-	public static void main(String[] args) {
-		
-		InsertSort is = new InsertSort(4);
-		
-		is.input();
-		System.out.println("Array: ");
-		is.print(array);
-		
-		System.out.println("Array after sorting: ");
-		is.sort(array, 4);
-		is.print(array);
-	
-	}
 }

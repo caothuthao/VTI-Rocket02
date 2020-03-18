@@ -30,18 +30,4 @@ public class SelectionSort extends SequenceNumber implements Sort{
 					swap(arr, minArr, i);
 			}
 	}
-	
-	public static void main(String[] args) {
-		
-		SelectionSort ss = new SelectionSort(4);
-		
-		ss.input();
-		System.out.println("Array: ");
-		ss.print(array);
-		
-		System.out.println("Array after sorting: ");
-		ss.sort(array, 4);
-		ss.print(array);
-		
-	}
 }

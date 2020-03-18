@@ -49,19 +49,4 @@ public class QuickSort extends SequenceNumber implements Sort{
 		
 		}
 	}
-	
-	public static void main(String[] args) {
-		
-		QuickSort qs = new QuickSort(4);
-		
-		qs.input();
-		System.out.println("Array: ");
-		qs.print(array);
-		
-		System.out.println("Array after sorting: ");
-		qs.sort(array, 0, 3);
-		qs.print(array);
-		
-	}
-	
 }

@@ -44,6 +44,14 @@ class NormalEmployee extends Employee {
 public class BonusEmployee extends Employee {
 
 	private int bonusSalary;
+	
+	public void setBonusSalary (int bonusSalary){
+		this.bonusSalary = bonusSalary;
+	}
+	
+	public int getBonusSalary(){
+		return bonusSalary;
+	}
 
 	@Override
 	public int getMonthlySalary() {
