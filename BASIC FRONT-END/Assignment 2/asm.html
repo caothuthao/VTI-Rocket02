@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ga beo</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="styleAsm.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<h2>Quản lý nhân viên</h2>            
+		<table class="table table-striped">
+ 			<thead>
+    			<tr class="success">
+     				<th>ID</th>
+     				<th>Họ tên</th>
+     		 		<th>Khoa/ Phòng ban</th>
+     		 		<th>Trình độ/ Chức vụ</th>
+     		 		<th>Phụ cấp</th>
+     		 		<th>Số tiết dạy/ Ngày công</th>
+     		 		<th>Tổng lương</th>
+  			</tr>
+ 			</thead>
+  		<tbody>
+  			<tr>
+    			<td>0</td>
+   				<td>Dang Huong</td>
+   		 		<td>Đào tạo</td>
+   		 		<td>Nhân viên</td>
+   		 		<td>2000</td>
+   		 		<td>3</td>
+   		 		<td>6000000</td>
+  			</tr>
+  			<tr>
+    			<td>0</td>
+   				<td>Hoang Viet Thang</td>
+   		 		<td>Lý</td>
+   		 		<td>Cử nhân</td>
+   		 		<td>2000</td>
+   		 		<td>3</td>
+   		 		<td>5000000</td>
+  			</tr>
+  			<tr>
+    			<td>0</td>
+   				<td>Nguyen Trung Kien</td>
+   		 		<td>Đào tạo</td>
+   		 		<td>Phó phòng</td>
+   		 		<td>2000</td>
+   		 		<td>4</td>
+   		 		<td>9000000</td>
+  			</tr>
+  			<tr>
+    			<td>0</td>
+   				<td>Tran Thuc Quyen</td>
+   		 		<td>Đào tạo</td>
+   		 		<td>Truong phòng</td>
+   		 		<td>2000</td>
+   		 		<td>4</td>
+   		 		<td>10000000</td>
+  			</tr>
+      </tbody>
+    </table>
+
+    <ul class="breadcrumb">
+      <li><a href="#">1</a></li>
+      <li class="active">2</li>
+    </ul>
+
+    <form class="form-inline" action="/action_page.php">
+      <div class="form-group">
+        <label for="name">Tên nhân viên:</label>
+        <input type="name" class="form-control" placeholder="Tên nhân viên" name="name">
+      </div>
+  	</form>
+
+    <div>
+    	<button type="submit" class="btn btn-primary">Load Data</button>
+    	<button type="submit" class="btn btn-warning">Thêm nhân viên</button>
+    	<button type="submit" class="btn btn-success">Sắp xếp</button>
+    </div>
+    
+  </body>
+</html>
