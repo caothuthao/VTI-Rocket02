@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VTI Academy</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<link rel="stylesheet" type="text/css" href="style.css">
+
+ 	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" id="navTopMenu">
+  		<div class="container">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="HomePage.html"><img class="img-responsive" src="logo.png" alt="VTI Academy" id="logoVTI"></a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav navbar-right" id="ulMenuLogin">
+        			<li><a href="KhoaHocPage.html"><b class="text3">KHÓA HỌC</b></a></li>
+        			<li><a href="VeChungToiPage.html"><b class="text3">VỀ CHÚNG TÔI</b></a></li>
+        			<li><a href="#contact"><b class="text3">LIÊN HỆ</b></a></li>
+        			<li><a href="#"><span class="glyphicon glyphicon-user"></span><b class="text3"> Sign Up</b></a></li>
+      			<li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span><b class="text3"> Login</b></a></li>
+      			</ul>
+    		</div>
+  		</div>
+	</nav>
+
+	<!-- Login -->
+	<section id="formLoginSection">
+		<div class="thumbnail" id="thumLogin">
+
+			<h3 id="loginH3ID"><b>Log in to VTI Academy</b></h3>
+
+			<div id="form">
+				<form action="/action_page.php">
+		  			<div class="form-group">
+		    			<label for="email" class="lableLogin">Email address:</label>
+		    			<input type="email" class="form-control" id="email">
+		  			</div>
+		  			<div class="form-group">
+		    			<label for="pwd" class="lableLogin">Password:</label>
+		    			<input type="password" class="form-control" id="pwd">
+		    			<p class="textLogin" id="textLogin1"><a href="#"> Forgot Password?</a></p>
+		  			</div>
+		  			<div class="checkbox">
+		    			<label class="lableLogin" id="checkBox"><input type="checkbox"> Remember me</label>
+		  			</div>
+		  			<!-- <button type="button" id="btnLogin"><b>Log in</b></button> -->
+		  			<button type="button" id="btnLogin" class="btn btn-primary">Log in</button>
+				</form>
+			</div>
+	  	</div>
+
+	  	<div id="textLogin2">
+	  		<span>New To VTI Academy?</span>
+	  		<a href="#"><b>Sign Up</b></a>
+	  	</div>
+  	</section>
+
+  	<!-- footer -->
+	<div class="container-fluid" id="containerFooterID">
+		<div class="row">
+    		<div class="col-sm-3">
+    			<ul class="ulFooter">
+    				<li class="liFooter"><b>VTI Academy</b></li>
+    				<li class="liContent"><b>Chúng tôi hướng tới việc đào tạo nguồn nhân lực Công nghệ chất lượng cao đáp ứng nhu cầu nguồn nhân lực cho doanh nghiệp trong và ngoài nước.</b></li>
+    			</ul>
+    		</div>
+	    	<div class="col-sm-3">
+	    		<ul class="ulFooter">
+					<li class="liFooter"><b>Connect with us</b></li>
+					<li class="liContent"><b>Contact us:</b></li>
+					<li class="liContent">
+						<a href="#"><span class="glyphicon glyphicon-earphone"></span></a>
+						<span><a href="#"><b>(+84) 086 359 388</b></a></span>
+					</li>					
+					<li class="liContent">
+						<a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+						<span><a href="#"><b>info@vtiacademy.edu.vn</b></a></span>
+					</li>
+					<li class="liContent"><a href="#"><b>Địa chỉ: số 60-62 Bạch Mai- HBT- HN</b></a></li>
+					<li class="liContent"><b>Fanpage: <a href="https://www.facebook.com/VTIAcademy/">https://www.facebook.com/VTIAcademy/</b></a></li>
+	    		</ul>
+	    	</div>
+	    	<div class="col-sm-3">
+	    		<ul class="ulFooter">
+    				<li class="liFooter"><b>Doanh nghiệp liên kết</b></li>
+    				<li class="liContent"><img src="avaHRI.jpg"><b> Công ty TNHH HRI Việt Nam</b></li>
+    				<li class="liContent"><img src="avaCMC.jpg"><b> Công ty TNHH CMC Global</b></li>
+    				<li class="liContent"><img src="Rikkeisoft.jpg"><b> Công ty TNHH Rikkeisoft</b></li>
+    			</ul>
+	    	</div>
+	    	<div class="col-sm-3">
+	    		<ul class="ulFooter">
+    				<li class="liFooter"><b>Our Products & Services</b></li>
+    				<li class="liContent"><a href="HomePage.html"><b>Home</b></a></li>
+    				<li class="liContent"><a href="KhoaHocPage.html"><b>Course</b></a></li>
+    				<li class="liContent"><a href="VeChungToiPage.html"><b>About us</b></a></li>
+    				<li class="liContent"><a href="#"><b>Contact</b></a></li>
+	    		</ul>
+	    	</div>    	
+	 	</div>
+	</div>
+
+</body>
+</html>

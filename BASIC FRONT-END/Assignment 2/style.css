@@ -1,0 +1,700 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Source+Sans+Pro:wght@300&display=swap');
+
+/*Home Page*/
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/*1. Menu*/
+#ulMenu li a:hover {
+  background-color: white;
+}
+
+#ulMenu {
+  margin: 0px;
+}
+
+#navFixedTop {
+  margin: 0px;
+}
+
+#logoVTI {
+  width: 50px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+section {
+  margin: 0px 40px;
+}
+
+.text3 {
+  font-size: 16px;
+}
+
+/* About us*/
+
+ #text1 {
+  margin: 0px;
+  padding: 60px 80px 60px;
+ }
+
+.text1 {
+  padding: 10px;
+  margin: 0px 30px;
+}
+
+#text1ID {
+  padding: 0px 10px 20px;
+  margin: 0px 30px;
+}
+
+#text1ID3 {
+  font-size: 16px;
+  color: rgb(0, 50, 168);
+  margin: 40px;
+  padding-top: 20px;
+}
+
+#text1ID3:link {
+  text-decoration: none;
+}
+
+#imageHomePage {
+  width: 550px;
+  height: auto;
+  margin: 20px 20px;
+ }
+
+/*What we offer?*/
+#text2 {
+  margin: 0px;
+  padding: 60px 80px 60px; 
+  background-color: rgb(250, 250, 250);
+ }
+
+#col01 {
+  padding: 0px;
+}
+
+#col02 {
+  padding: 0px;
+}
+
+#col03 {
+  padding: 0px;
+}
+
+#list02 {
+  margin: 0px 100px;
+}
+
+#col04 {
+  padding: 0px;
+}
+
+#col05 {
+  padding: 0px;
+}
+
+#col06 {
+  padding: 0px;
+}
+
+#thum01 {
+  margin: 0px;
+  padding: 30px;
+  height: 280px;
+}
+
+#thum01:hover {
+  background-color:  rgb(240, 240, 240);
+}
+
+#thum02 {
+  margin: 0px;
+  padding: 30px;
+  height: 280px;
+}
+
+#thum02:hover {
+  background-color:  rgb(240, 240, 240);
+}
+
+#thum03 {
+  margin: 0px;
+  padding: 30px;
+  height: 280px;
+}
+
+#thum03:hover {
+  background-color:  rgb(240, 240, 240);
+}
+
+#thum04 {
+  margin: 0px;
+  padding: 30px;
+  height: 280px;
+}
+
+#thum04:hover {
+  background-color:  rgb(240, 240, 240);
+}
+
+#thum05 {
+  margin: 0px;
+  padding: 30px;
+  height: 280px;
+}
+
+#thum05:hover {
+  background-color:  rgb(240, 240, 240);
+}
+
+#thum06 {
+  margin: 0px;
+  padding: 30px;
+  height: 280px;
+}
+
+#thum06:hover {
+  background-color:  rgb(240, 240, 240);
+}
+
+.caption {
+  text-align: center;
+}
+
+.glyphicon-cloud {
+  font-size: 40px;
+  color: rgb(0, 95, 215);
+}
+
+.glyphicon-gift {
+  font-size: 40px;
+  color: rgb(0, 95, 215);
+}
+
+.glyphicon-dashboard {
+  font-size: 40px;
+  color: rgb(0, 95, 215);
+}
+
+.glyphicon-education {
+  font-size: 40px;
+  color: rgb(0, 95, 215);
+}
+
+.glyphicon-globe {
+  font-size: 40px;
+  color: rgb(0, 95, 215);
+}
+
+.glyphicon-leaf {
+  font-size: 40px;
+  color: rgb(0, 95, 215);
+}
+
+.glyphicon-headphones {
+  font-size: 40px;
+  color: rgb(0, 95, 215);
+}
+
+/*lo trinh phu hop*/
+#text5 {
+  text-align: center;
+  margin: 0px 40px;
+  padding: 60px 60px 20px;
+}
+
+.table {
+  margin: 20px 0px 0px 0px;
+  font-size: 16px;
+  border: 1px solid rgb(240, 240, 240);
+}
+
+.table thead tr th{
+  text-align: center;
+}
+
+.btn-primary {
+  margin: 10px 35px;
+}
+
+#btn1 {
+  margin: 0px;
+ }
+
+#btn2 {
+  margin: 0px;
+ }
+
+#btn3 {
+  margin: 0px;
+ }
+
+/* Mentor*/
+.bg-grey h4 {
+  padding: 10px;
+}
+
+.bg-grey h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#mentor {
+  background-color: rgb(250, 250, 250);
+  margin: 60px 0px;
+  padding: 0px 40px;
+}
+
+.nameMentor {
+  font-size: 20px;
+  margin: 20px;
+  padding: 30px 10px 10px 10px;
+}
+
+/*Doanh nghiep noi gi ve chung toi*/
+#mediaParent {
+  margin: 0px 50px 60px;
+}
+
+#mediaText {
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
+
+#mediaText h2 {
+  color: rgb(60, 60, 60);
+}
+
+.text-center {
+  padding: 0px;
+}
+
+.media {
+  padding: 0px 50px;
+}
+
+#text6 {
+}
+
+#text6 h4 {
+  color: rgb(60, 60, 60);
+}
+
+#text6 p {
+  color: rgb(60, 60, 60);
+}
+
+#text7 h4 {
+  color: rgb(60, 60, 60);
+}
+
+#text7 p {
+  color: rgb(60, 60, 60);
+}
+
+#text8 h4 {
+  color: rgb(60, 60, 60);
+}
+
+#text8 p {
+  color: rgb(60, 60, 60);
+}
+
+.media-body {
+  padding: 15px;
+}
+
+/*Footer*/
+.ulFooter {
+  list-style-type: none;
+}
+
+#containerFooterID {
+  background-color: rgb(250, 250, 250);
+  padding-top: 60px;
+}
+
+.liFooter {
+  font-size: 18px;
+}
+
+.liContent {
+  padding: 8px 0px 0px;
+}
+
+.liContent a {
+  color: rgb(60, 60, 60);
+}
+
+.liContent a:link {
+  text-decoration: none;
+}
+
+.liContent img {
+  width: 40px;
+  height: auto;
+}
+
+.glyphicon-earphone {
+  font-size: 16px;
+  color: gray;
+}
+
+.glyphicon-envelope {
+  font-size: 16px;
+  color: gray;
+}
+
+/**/
+#list01 {
+  margin: 40px 100px;
+}
+
+#list02 {
+  margin: 40px 100px;
+}
+
+/*-------------------Login-----------------*/
+#loginH3ID {
+  padding: 30px 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 80, 131);
+}
+
+#thumLogin {
+  margin: 110px 470px 10px;
+}
+
+#form {
+  padding: 10px 40px;
+}
+
+#btnLogin {
+  margin: 10px 110px 20px;
+  font-size: 15px;
+  padding: 6px 10px;
+  width: 95px;
+}
+
+.textLogin {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  float: right;
+}
+
+.textLogin a:link {
+  text-decoration: none;
+}
+
+.textLogin a {
+  color: gray;
+}
+
+#textLogin1 {
+  padding: 6px;
+}
+
+.lableLogin {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+#checkBox {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+.checkbox {
+  padding: 8px;
+}
+
+#textLogin2 {
+    margin: 20px 550px 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#textLogin2 span {
+  padding-right: 10px;
+}
+
+#textLogin2 a {
+  color: rgb(0, 80, 131);
+}
+
+#textLogin2 a:link {
+  text-decoration: none;
+}
+
+#formLoginSection {
+  background-color: rgb(250, 250, 250);
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+#email:hover {
+  border: 1px solid blue;
+}
+
+#email {
+   background-color: rgb(250, 250, 250);
+}
+
+#pwd:hover {
+  border: 1px solid blue;
+}
+
+
+#pwd {
+   background-color: rgb(250, 250, 250);
+}
+
+#navTopMenu {
+  background-color: white;
+}
+
+#containerFooterIDLogin {
+  background-color: white;
+  padding-top: 40px;
+}
+
+#ulMenuLogin li a:hover {
+  background-color: rgb(0, 80, 146);
+  color: white;
+}
+
+.liContentLogin {
+  padding: 8px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.liContentLogin a {
+  color: rgb(60, 60, 60);
+}
+
+.liContentLogin a:link {
+  text-decoration: none;
+}
+
+.liContentLogin img {
+  width: 40px;
+  height: auto;
+}
+
+/*------------------- Về chúng tôi-----------------*/
+#imageHeaderAboutUs {
+  width: 1500px;
+  height: auto;
+}
+
+#col01AboutUs {
+  text-align: left;
+  font-size: 16px;
+}
+
+#col02AboutUs {
+  text-align: left;
+  font-size: 16px;
+}
+
+#col03AboutUs {
+  text-align: left;
+  font-size: 16px;
+}
+
+#veVTIAcademy {
+  padding: 90px 0px 80px;
+  background-color: rgb(250, 250, 250);
+}
+
+.imageAboutUs {
+  width: 500px;
+  height: auto;
+}
+
+.row02AboutUs {
+  margin-bottom: 80px;
+}
+
+.row02AboutUs div h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.textRow02AboutUs {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+#row03AboutUs {
+  padding: 0px 80px;
+}
+
+#row03AboutUs h4 {
+  margin: 25px 0px;
+  font-size: 16px;
+}
+
+#row03AboutUs p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#row04AboutUs {
+  padding-top: 40px;
+  padding-right: 30px;
+}
+
+#mentorAboutUs {
+  margin: 50px 0px 60px;
+  background-color: rgb(250, 250, 250);
+  padding: 40px 0px;
+}
+
+#imgActivities01 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities02 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities03 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities04 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities05 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities06 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities07 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities08 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities09 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities10 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities11 {
+  width: 220px;
+  height: 150px;
+}
+
+#imgActivities12 {
+  width: 220px;
+  height: 150px;
+}
+
+.activitiesClass {
+  padding: 20px;
+}
+ #containerActivities {
+  margin: 80px 0px;
+ }
+
+ #headerActivities {
+  padding-bottom: 30px;
+ }
+
+/*-------------------- Course---------------*/
+#colMd02Course {
+  padding: 30px 0px 0px 50px;
+}
+
+#thumCourse02 {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#thumCourse02 a {
+  color: rgb(100, 100, 100);
+}
+
+#thumCourse02 a:hover {
+  text-decoration: none;
+}
+
+#colMd10Course {
+  padding: 30px 30px 0px 30px;
+}
+
+.thumCourse10 a {
+  color: rgb(100, 100, 100);
+}
+
+.thumCourse10 a:hover {
+  text-decoration: none;
+}
+
+.thumCourse10 img {
+  width: 250px;
+  height: auto;
+  padding-top: 15px;
+}
+
+.thumCourse10 a h5 {
+  padding: 10px;
+}
+
+.thumCourse10 a p {
+  padding-bottom: 20px;
+}
+
+.thumbnail a:hover {
+  border: 1px solid blue;
+} 
+
+.thumbnail:hover {
+  border: 1px solid blue;
+}
+
+#paperCourse {
+  padding-bottom: 40px;
+}
