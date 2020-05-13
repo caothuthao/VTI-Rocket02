@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+
+.thumbnail {
+	margin: 50px 200px;
+	background-color: rgb(240, 240, 240);
+	padding: 30px;
+}
